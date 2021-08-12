@@ -15,5 +15,9 @@
   },
   "workspaces": [
     "packages/**"
-  ]
+  ],
+  "scripts": {
+    "build:changed": "lerna run build --since main --exclude-dependents",
+    "build": "lerna run build"
+  }
 }
