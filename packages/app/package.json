@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/app",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@shared-components/button": "^0.1.0"
+  },
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+  }
+}
