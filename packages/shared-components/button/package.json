@@ -1,6 +1,6 @@
 {
   "name": "@shared-components/button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/button.js",
   "license": "MIT"
 }
